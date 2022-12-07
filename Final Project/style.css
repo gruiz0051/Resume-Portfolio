@@ -1,0 +1,347 @@
+ html{
+    scroll-behavior: smooth;
+
+ }
+ /* Nav Bar*/
+.navbar{
+    padding: 0 0 4.5rem;
+    color:#2F3E46;
+
+}
+.navbar-brand{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3.5rem;
+    color:black;
+    font-weight:bold;
+    text-decoration: underline;
+
+}
+.nav-item{
+    padding:0px 60px;
+    text-decoration: underline;
+}
+.nav-link{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2rem;
+    color:#000000;
+}
+
+  .bg-img{
+  background-image:url("https://media.tenor.com/oRpvVCFlpNMAAAAC/crt-anime.gif");
+  min-height: 290px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*  position the navbar */
+  position: relative;
+  }
+  .container {
+    position: absolute;
+    margin: 1px;
+    width: auto;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: left;
+    padding: 1px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    background-color:#f3cfce;
+  }
+  
+  .topnav a:hover {
+    background-color:#f1adb9;
+    color: white;
+  }
+  /* Home Page*/
+#home{
+    background-color: pink;
+}
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    text-align:center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(62, 12, 54), 0 0 5px rgb(221, 0, 255);
+  }
+.me-img{
+    width:230px;
+    clip-path: circle();
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-70px;
+    }
+.about{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    text-align:center;
+    letter-spacing:1px;
+    color:black;
+    font-size: large;
+    word-wrap:normal;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:auto;
+    margin-top:-90px;
+    padding-bottom: 20px;
+
+    
+  }
+   /* Project Page*/
+  #projects{
+    background-color:#f09caf;
+  }
+  h2{
+    background-color: #f09caf;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    text-align:center;
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(62, 12, 54), 0 0 5px rgb(221, 0, 255);
+
+  }
+  .for{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    text-align:center;
+    padding-top: 50px;
+    color:black;
+    word-wrap:noraml;
+
+  }
+  /*dice game*/
+  .project-container{
+    display: flex;
+    align-items: center;
+  }
+
+.dice-img{
+    max-width: 55%;
+    max-height:50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    float: left;
+    
+}
+.dice-summary-text{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+  padding-right: 70px;
+  float: left;
+
+}
+.for-text{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    text-align:center;
+    padding-top: -50px;
+    color:black;
+    word-wrap:noraml;
+    text-decoration: underline;
+    
+}
+.dice-summary{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    padding-right: 80px;
+    padding-left:10px;
+
+}
+/*studybuddy*/
+.sb-for-text{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    text-align:center;
+    padding-top: -50px;
+    color:black;
+    word-wrap:noraml;
+    text-decoration: underline;
+
+}
+.sb-container{
+    display: flex;
+    align-items: center;
+
+}
+.sb-img{
+    max-width: 55%;
+    max-height:50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    float: left;
+
+}
+.sb-summary{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    padding-right: 80px;
+    padding-left:10px;
+
+}
+.sb-summary-text{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+  padding-right: 70px;
+  float: left;
+}
+/*cssi google */
+.cssi-container{
+    display: flex;
+    align-items: center;
+
+}
+.cssi-for-text{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    text-align:center;
+    padding-top: 50px;
+    color:black;
+}
+.cssi-text{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    text-align:center;
+    padding-top: -50px;
+    color:black;
+    word-wrap:noraml;
+    text-decoration: underline; 
+}
+.cssi-summary{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    padding-right: 80px;
+    padding-left:10px;
+
+}
+.cssi-summary-text{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+  padding-right: 70px;
+  float: left;
+
+}
+.cssi-img{
+    max-width: 40%;
+    max-height:60%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    float: left;
+
+}
+/*kode with klossy*/
+.kkw-for-text{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    text-align:center;
+    padding-top: 50px;
+    color:black;
+
+}
+.kkw-text{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    text-align:center;
+    padding-top: -50px;
+    color:black;
+    word-wrap:noraml;
+    text-decoration: underline; 
+
+}
+.kkw-container{
+    display: flex;
+    align-items: center;
+
+}
+.kww-summary{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    padding-right: 80px;
+    padding-left:10px;
+
+}
+.kkw-summary-text{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+  padding-right: 70px;
+  float: left;
+
+}
+.kkw-img{
+    max-width: 50%;
+    max-height:50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    float: left;
+
+}
+#about{
+    background-color:#ec698f;
+}
+.contact-text{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    text-align:center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(62, 12, 54), 0 0 5px rgb(221, 0, 255);
+}
+.contact-email{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    text-align:center;
+
+
+}
+.contact-phone{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    text-align:center;
+}
+.contact-github{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    text-align:center;
+}
+/*links*/
+.link{
+    color:black;
+}
+.link:hover{
+    color:hotpink;
+}
